@@ -2,6 +2,13 @@
 
 ## 1 Overview
 
+RV32M1 has one ARM Cortex M0+ core, one ARM Cortex M4F core, one RISC-V
+RI5CY core and one RISC-V ZERORISCY core. By default, all the cores run in
+normal run mode (RUN mode), in this mode, the max core clock speed is 48MHz.
+Meanwhile, the device could be configured to high speed run mode (HSRUN mode)
+or very low power run mode (VLPR mode) for different use cases. The max core clock
+speed is 72MHz in HSRUN mode, and 8MHz in VLPR mode.
+
 The RV32M1 Software Development Kit (SDK) provides comprehensive software
 support for RV32M1. The RV32M1 SDK includes a
 flexible set of peripheral drivers designed to speed up and simplify development
