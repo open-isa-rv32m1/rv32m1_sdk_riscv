@@ -1,0 +1,30 @@
+Release Name: MCUXpresso Software Development Kit (SDK)
+Release Version: 2.2.0
+
+KSDK Peripheral Driver     Description: Peripheral drivers are designed for  
+                           the most common use cases indentified for         
+                           the underlying hardware block.                    
+                           Author: Freescale                                 
+                           Version: 2.x.x                                    
+                           License: Open Source - BSD-3-Clause               
+                           Format: source code                               
+                           Location: devices/<device_name>/drivers           
+
+SD MMC Card middleware     name: SD MMC Card middleware                      
+                           Location: middleware/sdmmc_2.1.2                  
+                           License: Open Source - BSD-3-Clause               
+                           Description: A software component support SD card,
+                           eMMC card.                                        
+                           Author: Freescale                                 
+                           version: 2.1.2                                    
+                           Format: source code                               
+
+USB                        version: 1.6.3                                    
+                           Location: middleware/usb_1.6.3                    
+                           Description: Freescale USB stack. This is a       
+                           version of the USB stack that has been integrated 
+                           with the MCUXpresso SDK.                          
+                           License: Open Source - BSD-3-Clause               
+                           Author: Freescale                                 
+                           name: USB                                         
+                           Format: source code                               
