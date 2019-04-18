@@ -162,6 +162,17 @@ make
 
 Then the toolchain is installed to `/opt/riscv`. However, you may install to any location.
 
+3. Install CMake
+```bash
+brew install cmake
+```
+
+4. Update system variable
+```bash
+export PATH=$PATH:/opt/riscv/bin
+export RISCV32GCC_DIR="/opt/riscv"
+```
+
 #### 3.1.3 Set up on Windows
 
 The step 2 and step 3 are necessary if you want to build the riscvgcc project in command line.
